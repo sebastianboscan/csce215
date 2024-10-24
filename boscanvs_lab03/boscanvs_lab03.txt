@@ -1,0 +1,16 @@
+cocsce-l1d43-15
+boscanvs
+Hello, World!
+/acct/boscanvs/csce215/boscanvs_lab03
+boscanvs_lab03.txt  dirA  dirB  dirC  script.sh
+.
+├── boscanvs_lab03.txt
+├── dirA
+│   └── fileA
+├── dirB
+│   └── fileB
+├── dirC
+│   └── fileC
+└── script.sh
+
+3 directories, 5 files

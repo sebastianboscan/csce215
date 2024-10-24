@@ -1,0 +1,12 @@
+Sebastian Boscan-Villalobos
+
+I do NOT like VIM. I enjoy using nano much more. I encountered a lot of issues with VIM when 
+I ran the command vim .vimrc . However, I got to say that it was definitely an interesting
+learning experience (I will stick to nano form now on).
+
+syntax on
+set ruler
+set autoindent
+set number
+set ignorecase
+color elflord

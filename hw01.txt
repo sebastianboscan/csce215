@@ -1,0 +1,268 @@
+GitHub URL: https://github.com/sebastianboscan/.dotfiles
+
+
+This lab was definitely new stuff to me. I encountered several challenges remembering
+commands and how to use them. An example of this is how I forgot that you need to use "-a"
+after "ls" in order to see all hidden folders. I enjoyed the entire commit process from 
+the terminal. I'm too used to simply commiting from VSCode, so this was a welcome addition
+to my learning experience.
+
+At first, I started this assignment on my windows computer. Then, I realized that the 
+instructions are designed for the linux terminal, so I tried to create a virtual machine
+on my windows 11 laptop. After a few hours of struggle, I simply went to the lab and used 
+one of the computers there. For the most part, everything went smooth and there were no
+major issues.
+
+Once I started coding at the lab's conmputers. I ran into the entire "git config" section,
+and I believed that GIT BASH was required for this lab. But then the TA told me that GIT 
+BASH isn't needed, and that I could simply write git commands on the terminal. And so I did,
+I set git up by using the user.name and user.email commands (note: the lab suggests that you
+should input your first and last name for the user.name, this isn't necessarily true as some
+students may not have their first and last name as their github username). After that was done, 
+I created the ssh keys and set them up on my github. 
+
+Afterwards, I started working on section 4 where I had to record every command I used. For
+this I opened two terminal tabs and using nano I started writing down every correct command 
+I used. 
+
+Anyway, that was a "quick" explanation of hwo my lab session went... sorry for so much text :D
+
+
+Commands I used for section 4:
+0. cd
+1. mkdir .dotfiles
+2. ls -a
+3. cd .dotfiles
+4. pwd
+5. touch README.md
+6. vi README.md
+9/10. :wq
+11. cat README.md
+12. touch .nanorc
+13. nano .nanorc
+15. cp .nanorc ~
+
+
+Resources:
+- Dr. Hoskins' slides
+- Teacher Assistant
+
+
+Bash history:
+#1729702542
+touch boscanvs_hw01.txt
+#1729702559
+ls
+#1729702583
+nano boscanvs_hw01.txt 
+#1729706652
+cat boscanvs_hw01.txt 
+#1729706869
+touch hw01.txt
+#1729706873
+nano hw01.txt 
+#1729708311
+ls
+#1729708317
+nano username_lab_00.txt 
+#1729708359
+rename username_lab_00.txt boscanvs_lab_00.txt
+#1729708413
+mv username_lab_00.txt boscanvs_lab_00.txt
+#1729708415
+ls
+#1729708429
+cat boscanvs_lab_00.txt 
+#1729710562
+CAT .bash_history
+#1729710578
+cat bash_history.txt
+#1729710588
+cat bash_history
+#1729710596
+ls -a
+#1729710608
+cat .bash_history
+#1729696997
+add-apt-repository ppa:git-core/ppa
+#1729697015
+apt isntall git
+#1729697019
+clear
+#1729697770
+whoami
+#1729697773
+hostname
+#1729699706
+.ssh
+#1729699712
+~
+#1729699721
+cd .ssh
+#1729699724
+ls
+#1729699726
+clear
+#1729701032
+CLEAR
+#1729701033
+clear
+#1729701035
+cd
+#1729701066
+~
+#1729701068
+clear
+#1729701079
+cd .ssh
+#1729701087
+touch config
+#1729701090
+cd touch
+#1729701093
+;s
+#1729701095
+ls
+#1729701102
+cat configt
+#1729701107
+cat config
+#1729701109
+clear
+#1729701111
+ls
+#1729701113
+rm config
+#1729701116
+ls
+#1729701117
+clear
+#1729701315
+touch config
+#1729701317
+nano config
+#1729701420
+clear
+#1729701421
+ls
+#1729701425
+nano config
+#1729701484
+cd
+#1729701552
+git config --global user.name "seastianboscan"
+#1729701575
+git config --global user.email "seastianboscan@hotmail.fr"
+#1729701583
+git config --global user.email "sebastianboscan@hotmail.fr"
+#1729701591
+git config --global user.name "sebastianboscan"
+#1729701602
+git config --list
+#1729701612
+clear
+#1729701615
+cd .ssh
+#1729701938
+mkdir github
+#1729701942
+cd github
+#1729701979
+ssh-keygen -t ed25519 -a 203 -f ./id_ed25519
+#1729702071
+ls
+#1729702165
+cat id_ed25519.pub
+#1729702410
+whoami
+#1729702760
+clear
+#1729702849
+cd
+#1729702855
+mkdir .dotfiles
+#1729702857
+ls -a
+#1729702876
+cd .dotfiles
+#1729702921
+pwd
+#1729702925
+pwd -L
+#1729702956
+touch README.md
+#1729702958
+ls
+#1729702986
+vi README.md
+#1729703109
+nano README.md
+#1729704986
+vi README.md
+#1729705106
+git config --list
+#1729705161
+git user.name
+#1729705167
+git config user.name
+#1729705515
+cat README.md 
+#1729705567
+touch .nanorc
+#1729705592
+nano .nanorc
+#1729705658
+cat .nanorc
+#1729705684
+cp help
+#1729705689
+cp --help
+#1729705718
+cp .nanorc ~
+#1729705722
+ls
+#1729705730
+ls -a
+#1729705734
+cd
+#1729705736
+ls -a
+#1729705824
+cd .dotfiles
+#1729705826
+clear
+#1729705827
+ls
+#1729705828
+ls-a
+#1729705832
+ls -a
+#1729705834
+clear
+#1729705844
+git init
+#1729705852
+git add --all
+#1729705862
+git commit -m "INIT commit"
+#1729705872
+git branch -M main
+#1729705898
+git remote add origin git@github.com:sebastianboscan/.dotfiles
+#1729705908
+git push -u origin main
+#1729706346
+cd
+#1729706351
+cd .ssh
+#1729706353
+ls
+#1729706357
+nano config
+#1729706449
+vi config
+#1729710630
+cd
+#1729710640
+cat .bash_history
+
