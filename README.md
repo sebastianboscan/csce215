@@ -1,2 +1,2 @@
 # LAB FILES
-Just some cool lab files
+These are lab and homework files from Dr. Hoskins' CSCE215 class.
